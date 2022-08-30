@@ -8,6 +8,7 @@ public class Hotkey {
 	// dubbel click för markera ord
 	// trippel click för markera rad
 	// ctrl + click gå till källa
+	//ctrl + shift + f autoformatera
 	
 	// ctrl + f11 kör programmet
 	

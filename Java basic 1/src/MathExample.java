@@ -1,3 +1,4 @@
+import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -5,7 +6,7 @@ public class MathExample {
 
 	public static void main(String[] args) {
 		// 1-5
-		System.out.println(Math.floor(Math.random()*5)+ 1);
+		System.out.println( Math.floor(Math.random()*5)+ 1);
 		Random rand = new Random();
 		System.out.println(Math.toDegrees(Math.PI*2));
 		System.out.println(Math.toRadians(180));
@@ -14,7 +15,7 @@ public class MathExample {
 			System.out.println( i % 2 );
 		}
 		
-		System.out.println( 10 * -1);
+		System.out.println( 10 * -1); // flippar positiva tal till negativa tal
 		
 		
 		String text= "sdfjkjdheofjvcv";
@@ -25,9 +26,6 @@ public class MathExample {
 		arraylist.add(99);
 
 		System.out.println(arraylist.indexOf(99));
-		
-		
-		
 		
 		
 	}
