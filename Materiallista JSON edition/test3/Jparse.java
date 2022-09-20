@@ -30,7 +30,9 @@ public class Jparse {
 		    String AmountPerUnit = (String) entry.get("Amount per unit");
 		    System.out.println(AmountPerUnit);
 		    
-		    System.out.println(extractAndCalulate(AmountPerUnit)+"\n--------------");
+		    String total = (String) entry.get("Total amount");
+
+		    System.out.println(total + "->"+extractAndCalulate(AmountPerUnit)+"\n--------------");
 		    		
 
 		    
